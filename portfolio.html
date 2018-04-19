@@ -6,9 +6,11 @@ permalink: /portfolio/
 <ul class="portfolio">
 {% for portfolio in site.data.portfolio %}
 {% assign work = portfolio[1] %}
+{% assign beforeImage = 'background-image:url(' %}
+{% assign afterImage = ');' %}
+{% assign image = beforeImage | append: work.image | append: afterImage %}
   <li>
-    <div class="work-image">
-        <img src="{{ work.image }}" alt="{{ work.name }}" />
+    <div class="work-image" style="{{ image }}">
     </div>
     <div class="work-content">
       <h2>{{ work.name }}</h2>
