@@ -1,0 +1,6 @@
+name: Airbiquity
+image: "/assets/airbiquity.jpg"
+skills:
+  -  html5
+  -  angular
+  -  sass

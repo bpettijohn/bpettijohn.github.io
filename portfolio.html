@@ -1,0 +1,25 @@
+---
+layout: page
+title: Portfolio
+permalink: /portfolio/
+---
+<ul class="portfolio">
+{% for portfolio in site.data.portfolio %}
+{% assign work = portfolio[1] %}
+  <li>
+    <div class="work-image">
+        <img src="{{ work.image }}" alt="{{ work.name }}" />
+    </div>
+    <div>
+      <h2>{{ work.name }}</h2>
+      <ul>
+        {% for skill in work.skills %}
+          <li>
+            <i class="fab fa-{{ skill }}"></i>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </li>
+{% endfor %}
+</ul>
