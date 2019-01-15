@@ -1,0 +1,14 @@
+---
+layout: page
+title: Resume
+permalink: /resume/
+---
+<h1>Ben Pettijohn</h1>
+<h2>Technical Skills</h2>
+<ul>
+    {% for skills in site.data.skills %}
+        {% for skill in work.skills %}
+            <li>{{ skill }}</li>
+        {% endfor %}
+    {% endfor %}
+</ul>
