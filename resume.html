@@ -3,23 +3,25 @@ layout: page
 title: Resume
 permalink: /resume/
 ---
-<h1>Ben Pettijohn</h1>
-<h2>Technical Skills</h2>
-<ul>
-    {% assign sortedSkills = site.data.skills.skills | sort: 'rank' %}
-    {% for skill in sortedSkills %}
-        <li>
-            <strong>{{ skill.type }}:</strong>
-            {% for item in skill.items %}
-                {{ item }}{% if forloop.last == false %},{% endif %}
-            {% endfor %}
-        </li>
+<section class="resume">
+    <h1>Ben Pettijohn</h1>
+    <h2>Technical Skills</h2>
+    <ul>
+        {% assign sortedSkills = site.data.skills.skills | sort: 'rank' %}
+        {% for skill in sortedSkills %}
+            <li>
+                <strong>{{ skill.type }}:</strong>
+                {% for item in skill.items %}
+                    {{ item }}{% if forloop.last == false %},{% endif %}
+                {% endfor %}
+            </li>
+        {% endfor %}
+    </ul>
+    <h2>Work History</h2>
+    {% assign sortedhistory = site.data.history.history | sort: 'rank' %}
+    {% for history in sortedhistory %}
+        <div>
+            <h3>{{ history.name }}</h3>
+        </div>
     {% endfor %}
-</ul>
-<h2>Work History</h2>
-{% assign sortedhistory = site.data.history.history | sort: 'rank' %}
-{% for history in sortedhistory %}
-    <div>
-        <h3>{{ history.name }}</h3>
-    </div>
-{% endfor %}
+</section>
