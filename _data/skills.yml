@@ -10,3 +10,55 @@ skills:
       -  Gitlab
       -  Docker
       -  Maven
+  -
+    type: Version Control
+    rank: 1400
+    items:
+      -  Git
+      -  TFS
+      -  SVN
+  -
+    type: Unit Testing
+    rank: 1500
+    items:
+      -  Jasmine
+      -  Karma
+      -  Mocha
+  -
+    type: CSS Precompilers
+    rank: 1800
+    items:
+      -  Sass
+      -  Less
+  -
+    type: Languages
+    rank: 1300
+    items:
+      -  Linux
+      -  Windows
+      -  Mac
+  -
+    type: CMS
+    rank: 1100
+    items:
+      -  Wordpress
+      -  Drupal
+      -  Kentico
+  -
+    type: JS Libraries
+    rank: 1900
+    items:
+      -  jQuery
+      -  AngularJS
+      -  ReactJS
+      -  Redux
+      -  VueJS
+      -  LeafletJS
+      -  CanJS
+  -
+    type: Languages
+    rank: 1300
+    items:
+      -  Linux
+      -  Windows
+      -  Mac
