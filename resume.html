@@ -6,8 +6,9 @@ permalink: /resume/
 <h1>Ben Pettijohn</h1>
 <h2>Technical Skills</h2>
 <ul>
-    {% for skills in site.data.skills %}
-    {% assign skill = skills[1] | sort:"rank" %}
+    {% assign sortedSkills = site.data.skills | sort:"rank" %}
+    {% for skills in sortedSkills %}
+    {% assign skill = skills[1] %}
         <li>
             <strong>{{ skill.type }}:</strong>
             {% for item in skill.items %}
