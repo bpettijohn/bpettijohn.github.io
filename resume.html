@@ -9,9 +9,9 @@ permalink: /resume/
     {% for skills in site.data.skills %}
     {% assign skill = skills[1] %}
         <li>
-            <strong>{{ skill.type }}<strong>
+            <strong>{{ skill.type }}:</strong>
             {% for item in skill.items %}
-                {{ item }}
+                {{ item }}{% if forloop.last == false %},{% endif %}
             {% endfor %}
         </li>
     {% endfor %}
