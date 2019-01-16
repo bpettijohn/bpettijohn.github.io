@@ -9,9 +9,7 @@ permalink: /resume/
     {% for skill in site.data.skills %}
         <li>
             <strong>{{ skill.type }}</strong>
-            {% for item in skill.items %}
-                <span>{{ item }}</span>
-            {% endfor %}
+            {{ skill.items }}
         </li>
     {% endfor %}
 </ul>
