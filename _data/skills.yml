@@ -31,13 +31,6 @@ skills:
       -  Sass
       -  Less
   -
-    type: Languages
-    rank: 1300
-    items:
-      -  Linux
-      -  Windows
-      -  Mac
-  -
     type: CMS
     rank: 1100
     items:
@@ -56,9 +49,19 @@ skills:
       -  LeafletJS
       -  CanJS
   -
-    type: Languages
+    type: Operating Systems
     rank: 1300
     items:
       -  Linux
       -  Windows
       -  Mac
+  -
+    type: Languages
+    rank: 2000
+    items:
+      -  HTML5
+      -  CSS3
+      -  JavaScript/ES6/Typescript
+      -  C#
+      -  Java/Spring
+      -  NodeJS
