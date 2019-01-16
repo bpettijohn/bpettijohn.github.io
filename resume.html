@@ -16,3 +16,10 @@ permalink: /resume/
         </li>
     {% endfor %}
 </ul>
+<h2>Work History</h2>
+{% assign sortedhistory = site.data.history.history | sort: 'rank' %}
+{% for history in sortedhistory %}
+    <div>
+        <h3>{{ history.name }}</h3>
+    </div>
+{% endfor %}

@@ -1,0 +1,110 @@
+history:
+  -
+    name: Blue Nile
+    rank: 100
+    url: https://www.bluenile.com/
+    location: Seattle, WA
+    start: July, 2018
+    end: current
+    info: Blue Nile is the world's leading eCommerce diamond jeweler for engagement and wedding rings.
+    highlights:
+      - Rebranded homepage, header, footer, navigation, drop down menus and pop-ups. 
+      - Rebranded international slide out and rewrote jQuery to improve animation.
+      - Restructured handlebar layer into smaller reusable templates.
+      - Resolved IOS, Android, and Internet Explorer 11 style bugs. Used browser stack for mobile devices.
+  -
+    name: Sixth Ave Studios
+    rank: 200
+    url: http://sixthavestudios.com/
+    location: Tacoma, WA
+    start: February, 2017
+    end: July, 2018
+    info: Sixth Ave Studios is a digital design and development agency.
+    highlights:
+      - Developed Time Billing Application using ReactJS and Sass for Idaho National Laboratories. Made API calls to .NET backend.
+      - Developed Potentia IOS and Android app an e-learning experience focused on improving behaviors in VueJS. Made API calls to Laravel PHP.
+      - Developed modular AngularJS components for RedQuarry a financial research management web application.
+  -
+    name: Defense Health Agency - DOD
+    rank: 300
+    url: https://www.health.mil
+    location: Joint Base Lewis–McChord, WA
+    start: July, 2016
+    end: February, 2017
+    info: The Defense Health Agency (DHA) is a joint, integrated Combat Support Agency that enables the Army, Navy, and Air Force medical services to provide a medically ready force and ready medical force to Combatant Commands in both peacetime and wartime.
+    highlights:
+      - Developed mobile app using Ionic 2 and AngularJS 2 for service members suffering from behavioral or traumatic bran issues. 
+      - Setup build pipeline using Gitlab and Docker.
+      - Setup unit testing for AngularJS components using Jasmine.
+  -
+    name: Holland America
+    rank: 400
+    url: https://www.bluenile.com/
+    location: Seattle, WA
+    start: October, 2015
+    end: July, 2016
+    info: Cruise line.
+    highlights:
+      - Converted existing Java architecture over to AngularJS page by page.
+      - Identified and resolved performance issues such as a global click directive stacking 20+ click events on every element.
+      - Updated project from AngularJS 1 to AngularJS 2.
+      - Setup client side unit testing using Jasmine.
+      - Resolved mobile scrolling issues for IOS.
+      - Peer to Peer programming with Junior Developers.
+      - Created AngularJS code challenge for prospective candidates.
+
+  -
+    name: Xceligent
+    rank: 500
+    url: https://www.bluenile.com/
+    location: Seattle, WA
+    start: October, 2014
+    end: October, 2015
+    info: Xceligent, Inc. is a nationwide provider of property and listing information for the commercial real estate industry.
+    highlights:
+      - Developed AngularJS commercial real estate web application written in Typescript.
+      - Used LeafetJS with AngularJS to create interactive map so users could browse existing commercial properties.
+      - Created new pages using .NET MVC.
+      - Setup unit testing with Jasmine and Karma.
+      - Code reviewed and worked with International Team.
+  -
+    name: Zones
+    rank: 600
+    url: https://www.zones.com
+    location: Auburn, WA
+    start: August, 2013
+    end: October, 2014
+    info: Zones provides comprehensive IT solutions to customers across the country and around the world.
+    highlights:
+      - Rebranded existing eCommerce site zones.com. Rebranded Solutions, Services, Category and Homepage.
+      - Resolved style bugs occurring in older versions of Internet Explorer.
+      - Optimized pages for mobile devices.
+      - Built careers.zones.com in Wordpress
+      - Built pfalfoundation.org in Wordpress.
+  -
+    name: Airbiquity
+    rank: 700
+    url: https://www.airbiquity.com
+    location: Seattle, WA
+    start: April, 2012
+    end: August, 2013
+    info: Airbiquity is a pioneer in automotive telematics and global leader in connected vehicle service delivery.
+    highlights:
+      - Developed iHeart Radio and Pandora apps using CanJS for Nissan Infinity OEM Touch Screen. Made API calls to Java J2EE backend.
+      - Code reviewed and worked with International Team.
+      - Created build script and release versions using GruntJS.
+      - Created client side unit tests in Mocha.
+      - Tested app in Android Webview environment using Tablet and Touch Screen Head Unit.
+  -
+    name: Catalysis
+    rank: 800
+    url: http://catalysis.com/
+    location: Seattle, WA
+    start: October, 2010
+    end: April, 2012
+    info: Digital marketing agency.
+    highlights:
+      - Developed internationalized HTML emails to drive multiple Microsoft campaigns.
+      - Created canvas animations using HTML5.
+      - Rebuilt mobile ready catalysis.com using Drupal.
+      - Created landing pages for Microsoft Office 365 campaigns using .NET MVC.
