@@ -7,8 +7,6 @@ permalink: /resume/
 <h2>Technical Skills</h2>
 <ul>
     {% for skill in site.data.skills %}
-        <li>
-            <strong>{{ skill.type }}</strong>
-        </li>
+        <li> {{ skill.type }}</li>
     {% endfor %}
 </ul>
