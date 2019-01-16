@@ -7,7 +7,8 @@ permalink: /resume/
 <h2>Technical Skills</h2>
 <ul>
     {% assign sortedSkills = site.data.skills | sort: "rank" %}
-    {% for skills in sortedSkills %}
+    {{ sortedSkills }}
+    <!-- {% for skills in sortedSkills %}
     {% assign skill = skills[1] %}
         <li>
             <strong>{{ skill.type }}:</strong>
@@ -15,5 +16,5 @@ permalink: /resume/
                 {{ item }}{% if forloop.last == false %},{% endif %}
             {% endfor %}
         </li>
-    {% endfor %}
+    {% endfor %} -->
 </ul>
