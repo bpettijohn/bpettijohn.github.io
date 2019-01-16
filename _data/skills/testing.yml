@@ -1,4 +1,5 @@
 type: Unit Testing
+rank: 1500
 items:
   -  Jasmine
   -  Karma
