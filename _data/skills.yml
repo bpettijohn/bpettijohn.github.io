@@ -1,7 +1,7 @@
 skills:
   -
     type: Build Tools
-    rank: 1700
+    rank: 300
     items:
       -  NPM
       -  Grunt
@@ -12,34 +12,34 @@ skills:
       -  Maven
   -
     type: Version Control
-    rank: 1400
+    rank: 600
     items:
       -  Git
       -  TFS
       -  SVN
   -
     type: Unit Testing
-    rank: 1500
+    rank: 500
     items:
       -  Jasmine
       -  Karma
       -  Mocha
   -
     type: CSS Precompilers
-    rank: 1800
+    rank: 400
     items:
       -  Sass
       -  Less
   -
     type: CMS
-    rank: 1100
+    rank: 700
     items:
       -  Wordpress
       -  Drupal
       -  Kentico
   -
     type: JS Libraries
-    rank: 1900
+    rank: 200
     items:
       -  jQuery
       -  AngularJS
@@ -50,14 +50,14 @@ skills:
       -  CanJS
   -
     type: Operating Systems
-    rank: 1300
+    rank: 800
     items:
       -  Linux
       -  Windows
       -  Mac
   -
     type: Languages
-    rank: 2000
+    rank: 100
     items:
       -  HTML5
       -  CSS3
