@@ -6,7 +6,7 @@ permalink: /resume/
 <h1>Ben Pettijohn</h1>
 <h2>Technical Skills</h2>
 <ul>
-    {% for skills in site.data.skills %}
-        <li>{{ skills[0] }}</li>
+    {% for skill in site.data.skills %}
+        <li>{{ skill.type }}</li>
     {% endfor %}
 </ul>
