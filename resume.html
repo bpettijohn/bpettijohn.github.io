@@ -8,6 +8,11 @@ permalink: /resume/
 <ul>
     {% for skills in site.data.skills %}
     {% assign skill = skills[1] %}
-        <li>test22 {{ skill.type }}</li>
+        <li>
+            <strong>{{ skill.type }}<strong>
+            {% for item in skill.items %}
+                {{ item }}
+            {% endfor %}
+        </li>
     {% endfor %}
 </ul>
