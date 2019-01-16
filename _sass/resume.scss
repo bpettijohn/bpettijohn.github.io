@@ -1,0 +1,15 @@
+.resume {
+    ul {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    li {
+        list-style: none;
+
+        strong {
+            width: 25%;
+            display: inline-block;
+        }
+    }
+}
