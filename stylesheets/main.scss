@@ -4,6 +4,24 @@
 @import "header";
 @import "resume";
 
+@media(min-width:768px){
+    .wrapper {
+        width:750px
+    }
+}
+
+@media(min-width:992px){
+    .wrapper {
+        width:970px
+    }
+}
+
+@media(min-width:1200px){
+    .wrapper {
+        width:1170px
+    }
+}
+
 /*!
  * Generated using the Bootstrap Customizer (https://getbootstrap.com/docs/3.4/customize/)
  *//*!
