@@ -3,25 +3,45 @@ layout: page
 title: Resume
 permalink: /resume/
 ---
-<section class="resume">
-    <h1>Ben Pettijohn</h1>
-    <h2>Technical Skills</h2>
-    <ul>
-        {% assign sortedSkills = site.data.skills.skills | sort: 'rank' %}
-        {% for skill in sortedSkills %}
-            <li>
-                <strong>{{ skill.type }}:</strong>
-                {% for item in skill.items %}
-                    {{ item }}{% if forloop.last == false %},{% endif %}
-                {% endfor %}
-            </li>
-        {% endfor %}
-    </ul>
-    <h2>Work History</h2>
-    {% assign sortedhistory = site.data.history.history | sort: 'rank' %}
-    {% for history in sortedhistory %}
-        <div>
-            <h3>{{ history.name }}</h3>
+<div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            One of three columns
+          </div>
+          <div class="col-12 col-md-8">
+            One of three columns
+          </div>
         </div>
-    {% endfor %}
+      </div>
+<section class="container resume">
+    <div class="row">
+        <div class="col-12 col-md-4">
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+        </div>
+        <div class="col-12 col-md-8">
+            <h2>Technical Skills</h2>
+            <ul>
+                {% assign sortedSkills = site.data.skills.skills | sort: 'rank' %}
+                {% for skill in sortedSkills %}
+                    <li>
+                        <strong>{{ skill.type }}:</strong>
+                        {% for item in skill.items %}
+                            {{ item }}{% if forloop.last == false %},{% endif %}
+                        {% endfor %}
+                    </li>
+                {% endfor %}
+            </ul>
+            <h2>Work History</h2>
+            {% assign sortedhistory = site.data.history.history | sort: 'rank' %}
+            {% for history in sortedhistory %}
+                <div>
+                    <h3>{{ history.name }}</h3>
+                </div>
+            {% endfor %}
+            </div>
+        </div>
 </section>

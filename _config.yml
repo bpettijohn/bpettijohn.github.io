@@ -16,7 +16,7 @@
 title: Ben Pettijohn
 email: pettijohn85@yahoo.com 
 description: >- # this means to ignore newlines until "baseurl:"
-  I am a Senior Web Developer from Tacoma, Washington. Looking to create great products with great teams, using bleeding edge technology.
+  I am a Senior Web Developer from Tacoma, Washington. Looking to make great products with a great teams.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
