@@ -1,4 +1,7 @@
 .resume {
+    background-color: blue;
+    color: #fff;
+
     ul {
         padding-left: 0;
         margin-left: 0;
@@ -12,11 +15,6 @@
             width: 25%;
             display: inline-block;
         }
-    }
-
-    .container {
-        background-color: blue;
-        color: #fff;
     }
 
     .main-column {
