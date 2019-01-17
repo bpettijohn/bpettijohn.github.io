@@ -3,16 +3,6 @@ layout: page
 title: Resume
 permalink: /resume/
 ---
-<div class="container">
-        <div class="row">
-          <div class="col-12 col-md-4">
-            One of three columns
-          </div>
-          <div class="col-12 col-md-8">
-            One of three columns
-          </div>
-        </div>
-      </div>
 <section class="container resume">
     <div class="row">
         <div class="col-12 col-md-4 contact-column">
@@ -22,7 +12,7 @@ permalink: /resume/
                 <li>3</li>
             </ul>
         </div>
-        <div class="col-12 col-md-8">
+        <div class="col-12 col-md-8 main-column">
             <h2>Technical Skills</h2>
             <ul>
                 {% assign sortedSkills = site.data.skills.skills | sort: 'rank' %}
