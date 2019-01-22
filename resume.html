@@ -32,7 +32,10 @@ permalink: /resume/
             {% assign sortedhistory = site.data.history.history | sort: 'rank' %}
             {% for history in sortedhistory %}
                 <div>
-                    <h3>{{ history.name }} at {{ history.name }}</h3>
+                    <header>
+                        <h3>{{ history.title }} at {{ history.name }}</h3>
+                        <div class="date"></div>
+                    </header>
                     <ul>
                         {% for highlight in history.highlights %}
                             <li>{{ highlight }}</li>
