@@ -1,5 +1,5 @@
 .resume {
-    background-color: blue;
+    background-color: #212121;
     line-height: 30px;
     color: #fff;
 
@@ -18,6 +18,11 @@
         li {
             list-style: none;
         }
+    }
+
+    .seperator {
+        border-top: 2px solid #fff;
+        border-bottom: 2px solid #fff;
     }
 
     .skills {
