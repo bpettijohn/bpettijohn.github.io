@@ -1,6 +1,15 @@
 .resume {
     background-color: blue;
+    line-height: 30px;
     color: #fff;
+
+    h3 {
+        margin: 20px 0 10px;
+    }
+
+    .center {
+        text-align: center;
+    }
 
     .no-list {
         padding-left: 0;
@@ -8,7 +17,6 @@
 
         li {
             list-style: none;
-            line-height: 30px;
         }
     }
 
