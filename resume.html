@@ -34,7 +34,7 @@ permalink: /resume/
                 <div>
                     <header>
                         <h3>{{ history.title }} at {{ history.name }}</h3>
-                        <div class="date"></div>
+                        <div class="date">{{ history.start }} - {{ history.end }}</div>
                     </header>
                     <ul>
                         {% for highlight in history.highlights %}
