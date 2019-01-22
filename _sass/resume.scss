@@ -23,6 +23,7 @@
     .seperator {
         border-top: 2px solid #fff;
         border-bottom: 2px solid #fff;
+        padding: 20px 0;
     }
 
     .skills {
@@ -32,6 +33,12 @@
                 display: inline-block;
             }
         }
+    }
+
+    .contact-column {
+        text-align: center;
+        padding: 0;
+        font-weight: bold;
     }
 
     .main-column {
