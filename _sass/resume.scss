@@ -2,18 +2,22 @@
     background-color: blue;
     color: #fff;
 
-    ul {
+    .no-list {
         padding-left: 0;
         margin-left: 0;
+
+        li {
+            list-style: none;
+            line-height: 30px;
+        }
     }
 
-    li {
-        list-style: none;
-        line-height: 30px;
-
-        strong {
-            width: 25%;
-            display: inline-block;
+    .skills {
+        li {
+             strong {
+                width: 25%;
+                display: inline-block;
+            }
         }
     }
 

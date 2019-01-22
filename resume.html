@@ -7,15 +7,15 @@ permalink: /resume/
     <div class="row">
         <div class="col-12 col-md-3 contact-column">
             <img src="/assets/pfal.png" />
-            <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
+            <ul class="no-list">
+                {% for contact in site.data.contact.contact %}
+                    <li>{{ contact }}</li>
+                {% endfor %}
             </ul>
         </div>
         <div class="col-12 col-md-9 main-column">
             <h2>Technical Skills</h2>
-            <ul>
+            <ul class="no-list skills">
                 {% assign sortedSkills = site.data.skills.skills | sort: 'rank' %}
                 {% for skill in sortedSkills %}
                     <li>
