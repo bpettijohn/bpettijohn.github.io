@@ -1,6 +1,7 @@
 history:
   -
     name: Blue Nile
+    title: Senior Web Developer
     rank: 100
     url: https://www.bluenile.com/
     location: Seattle, WA
@@ -14,6 +15,7 @@ history:
       - Resolved IOS, Android, and Internet Explorer 11 style bugs. Used browser stack for mobile devices.
   -
     name: Sixth Ave Studios
+    title: Senior Web Developer
     rank: 200
     url: http://sixthavestudios.com/
     location: Tacoma, WA
@@ -26,6 +28,7 @@ history:
       - Developed modular AngularJS components for RedQuarry a financial research management web application.
   -
     name: Defense Health Agency - DOD
+    title: Senior Web Developer
     rank: 300
     url: https://www.health.mil
     location: Joint Base Lewis–McChord, WA
@@ -38,6 +41,7 @@ history:
       - Setup unit testing for AngularJS components using Jasmine.
   -
     name: Holland America
+    title: Senior Web Developer
     rank: 400
     url: https://www.bluenile.com/
     location: Seattle, WA
@@ -55,6 +59,7 @@ history:
 
   -
     name: Xceligent
+    title: Applications Developer II
     rank: 500
     url: https://www.bluenile.com/
     location: Seattle, WA
@@ -69,6 +74,7 @@ history:
       - Code reviewed and worked with International Team.
   -
     name: Zones
+    title: Ecommerce Lead Web Developer
     rank: 600
     url: https://www.zones.com
     location: Auburn, WA
@@ -83,6 +89,7 @@ history:
       - Built pfalfoundation.org in Wordpress.
   -
     name: Airbiquity
+    title: Web Developer
     rank: 700
     url: https://www.airbiquity.com
     location: Seattle, WA
@@ -97,6 +104,7 @@ history:
       - Tested app in Android Webview environment using Tablet and Touch Screen Head Unit.
   -
     name: Catalysis
+    title: Web Developer
     rank: 800
     url: http://catalysis.com/
     location: Seattle, WA
