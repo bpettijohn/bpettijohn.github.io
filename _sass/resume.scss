@@ -15,7 +15,7 @@
 
     .no-list {
         padding-left: 0;
-        margin-left: 0;
+        margin: 16px 0;
 
         li {
             list-style: none;
@@ -43,10 +43,10 @@
         font-weight: bold;
 
         h1 {
-            word-wrap: break-word;
             text-transform: uppercase;
             letter-spacing: 1px;
             text-transform: uppercase;
+            margin-bottom: 0;
             line-height: 40px;
             font-family: 'Roboto', sans-serif;
         }
