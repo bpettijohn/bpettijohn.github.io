@@ -62,6 +62,11 @@
              strong {
                 width: 25%;
                 display: inline-block;
+
+                @media(min-width:768px){
+                    display: block;
+                    margin-bottom: 8px;
+                }
             }
         }
     }
@@ -86,6 +91,7 @@
         font-size: 14px;
         font-weight: normal;
         margin-bottom: 24px;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
     }
 
     .list-header {
