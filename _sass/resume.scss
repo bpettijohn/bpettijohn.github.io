@@ -62,11 +62,6 @@
              strong {
                 width: 25%;
                 display: inline-block;
-
-                @media(min-width:768px){
-                    display: block;
-                    margin-bottom: 8px;
-                }
             }
         }
     }
@@ -131,4 +126,16 @@
 
 .post-header {
     display: none;
+}
+
+@media(min-width:768px){
+    .resume {
+        .skills {
+            li {
+                strong {
+                    display: block;
+                }
+            }
+        }
+    }
 }
