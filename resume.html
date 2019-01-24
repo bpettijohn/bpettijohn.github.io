@@ -17,7 +17,7 @@ permalink: /resume/
             </ul>
         </div>
         <div class="col-12 col-md-9 main-column">
-            <h2>Technical Skills</h2>
+            <h2>Skills</h2>
             <ul class="no-list skills">
                 {% assign sortedSkills = site.data.skills.skills | sort: 'rank' %}
                 {% for skill in sortedSkills %}
@@ -29,7 +29,7 @@ permalink: /resume/
                     </li>
                 {% endfor %}
             </ul>
-            <h2>Work History</h2>
+            <h2>Experience</h2>
             {% assign sortedhistory = site.data.history.history | sort: 'rank' %}
             {% for history in sortedhistory %}
                 <div>
