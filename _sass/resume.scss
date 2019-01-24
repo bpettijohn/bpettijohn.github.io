@@ -22,6 +22,20 @@
         text-align: center;
     }
 
+    .letters {
+        background: #005dff;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        color: #fff;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+        font-size: 40px;
+        font-family: arial;
+        font-weight: bold;
+        border-radius: 50px;
+      }
+
     .no-list {
         padding-left: 0;
         margin: 16px 0;
