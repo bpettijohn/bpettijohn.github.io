@@ -1,5 +1,6 @@
 .resume {
-    background-color: #212121;
+    background: rgb(72,72,72);
+    background: linear-gradient(180deg, rgba(72,72,72,1) 0%, rgba(33,33,33,1) 50%, rgba(0,0,0,1) 100%);
     line-height: 30px;
     color: #fff;
     font-size: 16px;
@@ -26,6 +27,11 @@
         border-top: 2px solid #fff;
         border-bottom: 2px solid #fff;
         padding: 20px 0;
+    }
+
+    header {
+        margin-top: 16px;
+        margin-bottom: 32px;
     }
 
     .skills {
@@ -73,7 +79,8 @@
     }
 
     header {
-        background-color: #212121;
+        background: rgb(72,72,72);
+        background: linear-gradient(90deg, rgba(72,72,72,1) 0%, rgba(33,33,33,1) 50%, rgba(0,0,0,1) 100%);
         color: #fff;
         padding: 20px 10px;
         padding: 15px 10px 10px;
