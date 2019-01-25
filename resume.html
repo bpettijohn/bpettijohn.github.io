@@ -23,9 +23,11 @@ permalink: /resume/
                 {% for skill in sortedSkills %}
                     <li>
                         <strong>{{ skill.type }}:</strong>
-                        {% for item in skill.items %}
-                            {{ item }}{% if forloop.last == false %},{% endif %}
-                        {% endfor %}
+                        <span>
+                            {% for item in skill.items %}
+                                {{ item }}{% if forloop.last == false %},{% endif %}
+                            {% endfor %}
+                        </span>
                     </li>
                 {% endfor %}
             </ul>
