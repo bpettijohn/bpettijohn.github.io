@@ -61,7 +61,7 @@
         li {
              strong {
                 width: 25%;
-                display: inline-block;
+                display: block;
 
                 @media(max-width:768px){
                     display: block;
@@ -70,7 +70,8 @@
             }
 
             span {
-                display: inline-block;
+                display: block;
+                width: 75%
             }
         }
     }
