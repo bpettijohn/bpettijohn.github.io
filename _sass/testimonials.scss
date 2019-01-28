@@ -6,10 +6,15 @@
     margin: 0 auto;
     font-size: 18px;
 
-    p span {
-        font-size: 32px;
-        font-weight: bold;
+    p {
         color: #000;
+
+        span {
+            font-size: 32px;
+            font-weight: bold;
+            color: #005dff;
+            line-height: 18px;
+        }
     }
 
     .name {
