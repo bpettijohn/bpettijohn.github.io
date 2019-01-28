@@ -7,8 +7,10 @@ permalink: /testimonials/
     <div class="row">
         <div class="col-12">
             {% for testimonial in site.data.testimonials.testimonials %}
-                <div>{{ testimonial.text }}</div>
-                <div>{{ testimonial.name}}, {{ testimonial.company }}</div>
+                <div class="testimonial">
+                    <p>{{ testimonial.text }}</p>
+                    <div class="name">{{ testimonial.name}}, <span>{{ testimonial.company }}</span></div>
+                </div>
             {% endfor %}
         </div>
     </div>
