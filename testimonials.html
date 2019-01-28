@@ -1,0 +1,15 @@
+---
+layout: page
+title: Testimonials
+permalink: /testimonials/
+---
+<section class="container">
+    <div class="row">
+        <div class="col-12">
+            {% for testimonial in site.data.testimonials.testimonials %}
+                <div>{{ testimonial.text }}</div>
+                <div>{{ testimonial.name}}, {{ testimonial.company }}</div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
