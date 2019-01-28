@@ -1,6 +1,4 @@
 .resume {
-    background: rgb(72,72,72);
-    background: linear-gradient(180deg, rgba(72,72,72,1) 0%, rgba(33,33,33,1) 50%, rgba(0,0,0,1) 100%);
     line-height: 30px;
     color: #fff;
     font-size: 18px;
@@ -62,6 +60,9 @@
         text-align: center;
         padding: 0;
         font-weight: bold;
+        background: #484848;
+        background: linear-gradient(180deg, #484848 0%, #212121 50%, #000 100%);
+        min-height: 1000px;
 
         h1 {
             text-transform: uppercase;
