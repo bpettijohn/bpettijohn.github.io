@@ -62,7 +62,10 @@
         font-weight: bold;
         background: #484848;
         background: linear-gradient(180deg, #484848 0%, #212121 50%, #000 100%);
-        min-height: 1000px;
+
+        @media(min-width:992px){
+            min-height: 2000px;
+        }
 
         h1 {
             text-transform: uppercase;
