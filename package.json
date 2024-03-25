@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "jekyll serve --livereload"
+    "start": "jekyll serve --livereload"
   },
   "author": "",
   "license": "ISC",

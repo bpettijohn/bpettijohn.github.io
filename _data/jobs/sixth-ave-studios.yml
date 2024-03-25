@@ -1,0 +1,12 @@
+name: Sixth Ave Studios
+title: Senior Web Developer
+rank: 200
+url: http://sixthavestudios.com/
+location: Tacoma, WA
+start: February, 2017
+end: July, 2018
+info: Sixth Ave Studios is a digital design and development agency.
+highlights:
+  - Developed Time Billing Application using ReactJS and Sass for Idaho National Laboratories. Made API calls to .NET backend.
+  - Developed Potentia IOS and Android app an e-learning experience focused on improving behaviors in VueJS. Made API calls to Laravel PHP.
+  - Developed modular AngularJS components for RedQuarry a financial research management web application.

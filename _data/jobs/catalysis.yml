@@ -1,0 +1,13 @@
+name: Catalysis
+title: Web Developer
+rank: 800
+url: http://catalysis.com/
+location: Seattle, WA
+start: October, 2010
+end: April, 2012
+info: Catalysis is a full circle marketing agency. We analyze audience data, build websites, manage email campaigns, create apps, integrate social activity, and tie your marketing efforts together in a smart, measurable way.
+highlights:
+  - Developed internationalized HTML emails to drive multiple Microsoft campaigns.
+  - Created canvas animations using HTML5.
+  - Rebuilt mobile ready catalysis.com using Drupal.
+  - Created landing pages for Microsoft Office 365 campaigns using .NET MVC.

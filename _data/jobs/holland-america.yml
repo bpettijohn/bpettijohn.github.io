@@ -1,0 +1,16 @@
+name: Holland America
+title: Senior Web Developer
+rank: 400
+url: https://www.bluenile.com/
+location: Seattle, WA
+start: October, 2015
+end: July, 2016
+info: Holland America is a leader in the cruise industry with 11 modern classic ships offers more than 500 sailings a year visiting all seven continents.
+highlights:
+  - Converted existing Java architecture over to AngularJS page by page.
+  - Identified and resolved performance issues such as a global click directive stacking 20+ click events on every element.
+  - Updated project from AngularJS 1 to AngularJS 2.
+  - Setup client side unit testing using Jasmine.
+  - Resolved mobile scrolling issues for IOS.
+  - Peer to Peer programming with Junior Developers.
+  - Created AngularJS code challenge for prospective candidates.

@@ -1,0 +1,14 @@
+name: Xceligent
+title: Applications Developer II
+rank: 500
+url: https://www.bluenile.com/
+location: Seattle, WA
+start: October, 2014
+end: October, 2015
+info: Xceligent, Inc. is a nationwide provider of property and listing information for the commercial real estate industry.
+highlights:
+  - Developed AngularJS commercial real estate web application written in Typescript.
+  - Used LeafetJS with AngularJS to create interactive map so users could browse existing commercial properties.
+  - Created new pages using .NET MVC.
+  - Setup unit testing with Jasmine and Karma.
+  - Code reviewed and worked with International Team.

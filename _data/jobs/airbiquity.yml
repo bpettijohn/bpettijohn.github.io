@@ -1,0 +1,14 @@
+name: Airbiquity
+title: Web Developer
+rank: 700
+url: https://www.airbiquity.com
+location: Seattle, WA
+start: April, 2012
+end: August, 2013
+info: Airbiquity is a pioneer in automotive telematics and global leader in connected vehicle service delivery.
+highlights:
+  - Developed iHeart Radio and Pandora apps using CanJS for Nissan Infinity OEM Touch Screen. Made API calls to Java J2EE backend.
+  - Code reviewed and worked with International Team.
+  - Created build script and release versions using GruntJS.
+  - Created client side unit tests in Mocha.
+  - Tested app in Android Webview environment using Tablet and Touch Screen Head Unit.

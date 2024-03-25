@@ -5,4 +5,4 @@ services:
       - .:/src/jekyll:Z
     ports:
       - 4000:4000
-    command: "bundle exec jekyll serve"
+    command: "ruby -v"
