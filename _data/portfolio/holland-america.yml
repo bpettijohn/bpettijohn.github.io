@@ -1,8 +1,0 @@
-name: Holland America
-image: /assets/holland-america.png
-rank: 1300
-skills:
-  -  html5
-  -  angular
-  -  sass
-  -  git

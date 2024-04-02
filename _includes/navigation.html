@@ -1,7 +1,0 @@
-<nav class="text-white pt-8 text-2xl">
-    {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" class="px-8 {% if page.url==item.link %}font-bold{% endif %}">
-        {{ item.name }}
-    </a>
-    {% endfor %}
-</nav>

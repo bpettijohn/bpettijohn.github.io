@@ -1,8 +1,0 @@
-name: Airbiquity
-image: "/assets/airbiquity.jpg"
-rank: 1900
-skills:
-  -  html5
-  -  angular
-  -  sass
-  -  grunt
