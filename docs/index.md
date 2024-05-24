@@ -1,5 +1,0 @@
----
-home: true
----
-
-# Home
