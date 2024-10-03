@@ -1,4 +1,4 @@
-# What is a barrel file
+# What are barrel files?
 
 A barrel file is a file that re-exports from other files. It is usually a `index.ts` or `index.js` that looks like this:
 
