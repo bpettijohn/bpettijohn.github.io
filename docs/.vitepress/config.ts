@@ -16,6 +16,7 @@ export default defineConfig({
         text: "Blog",
         items: [
           { text: "NPM Workspaces", link: "/blog/npm-workspaces" },
+          { text: "Barrel Files", link: "/blog/barrel-files" },
           { text: "all", link: "/blog" },
           // { text: 'Runtime API Examples', link: '/api-examples' }
         ],
