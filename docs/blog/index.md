@@ -1,5 +1,5 @@
 # Welcome to my blog
 
-<!-- [NPM Workspaces](/blog/npm-workspaces) -->
+[What is a barrel files?](/blog/what-is-a-barrel-file)
 
-[What are barrel files?](/blog/barrel-files)
+[Create reusable javascript packages with workspaces](/blog/create-reusable-javascript-packages-with-workspaces)

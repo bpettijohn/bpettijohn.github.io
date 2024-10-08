@@ -10,19 +10,18 @@ export default defineConfig({
       { text: "Home", link: "/" },
       { text: "Blog", link: "/markdown-examples" },
     ],
-
     sidebar: [
       {
         text: "Blog",
         items: [
-          // { text: "NPM Workspaces", link: "/blog/npm-workspaces" },
-          { text: "Barrel Files", link: "/blog/barrel-files" },
-          // { text: "all", link: "/blog" },
-          // { text: 'Runtime API Examples', link: '/api-examples' }
+          {
+            text: "Create reusable javascript packages with workspaces",
+            link: "/blog/create-reusable-javascript-packages-with-workspaces",
+          },
+          { text: "Barrel Files", link: "/blog/what-is-a-barrel-file" },
         ],
       },
     ],
-
     socialLinks: [
       {
         icon: "github",

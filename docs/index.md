@@ -4,20 +4,22 @@ layout: home
 
 hero:
   name: Ben Pettijohn
-  text: Software Engineer
-  # tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Blog
-      link: /blog
+  text: Senior Software Engineer
+  tagline: Crafting digital solutions one line at at time
+  # actions:
+  #   - theme: brand
+  #     text: Blog
+  #     link: /blog
   #   - theme: alt
   #     text: API Examples
   #     link: /api-examples
-# features:
-#   - title: Feature A
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature B
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature C
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+features:
+  - icon: 🛢️
+    title: Create reusable javascript packages with workspaces
+    details: Workspaces are a great way to create modular reusable code in the javascript ecosystem
+    link: /blog/create-reusable-javascript-packages-with-workspaces
+  - icon: ♻️
+    title: What is a barrel file?
+    details: Reduce circular imports and improve performance by eliminating barrel files
+    link: /blog/barrel-files
 ---
