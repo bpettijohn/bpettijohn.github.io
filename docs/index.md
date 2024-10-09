@@ -18,5 +18,5 @@ features:
   - icon: 🛢️
     title: What is a barrel file?
     details: Reduce circular imports and improve performance by eliminating barrel files
-    link: /blog/barrel-files
+    link: /blog/what-is-a-barrel-file
 ---
