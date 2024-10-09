@@ -196,4 +196,4 @@ Not only can we use the **@ben/counter** package but we also get intellisense.
 
 Let's verify it works
 
-<video src="../assets/videos/ben-counter-npm-workspaces.mp4" controls autoplay />
+<video src="../assets/videos/ben-counter-npm-workspaces.mp4" controls />
