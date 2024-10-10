@@ -11,6 +11,10 @@ hero:
       text: Resume
       link: /resume
 features:
+  - icon: 🧪
+    title: Add unit tests to your TypeScript packages
+    details: We can improvide confidence in our code by writing unit tests. Unit tests should resumble how the software is used.
+    link: /blog/add-unit-tests-to-your-typescript-packages
   - icon: ♻️
     title: Create reusable javascript packages with workspaces
     details: Workspaces are a great way to create modular reusable code in the javascript ecosystem

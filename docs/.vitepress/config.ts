@@ -14,13 +14,22 @@ export default defineConfig({
     sidebar: [
       {
         text: "Blog",
-        items: [
-          {
-            text: "Create reusable javascript packages with workspaces",
-            link: "/blog/create-reusable-javascript-packages-with-workspaces",
-          },
-          { text: "Barrel Files", link: "/blog/what-is-a-barrel-file" },
-        ],
+        link: "/blog",
+        // items: [
+        //   {
+        //     text: "Create reusable javascript packages with workspaces",
+        //     link: "/blog/create-reusable-javascript-packages-with-workspaces",
+        //   },
+        //   { text: "Barrel Files", link: "/blog/what-is-a-barrel-file" },
+        //   {
+        //     text: "Add unit tests to your typescript packages",
+        //     link: "/blog/add-unit-tests-to-your-typescript-packages",
+        //   },
+        // ],
+      },
+      {
+        text: "Resume",
+        link: "/resume",
       },
     ],
     socialLinks: [
