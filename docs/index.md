@@ -4,13 +4,18 @@ layout: home
 
 hero:
   name: Ben Pettijohn
-  text: Senior Software Engineer
+  text: Fullstack Software Engineer
   tagline: Crafting digital solutions one line at at time
+  image: "./assets/images/code-solid.svg"
   actions:
     - theme: brand
       text: Resume
       link: /resume
 features:
+  - icon: 🐈
+    title: Fibonacci closure exercise in Go
+    details: Create solutions using closures and write better conditional statements with switch.
+    link: /blog/fibonacci-closer-exercise-in-go
   - icon: 🧪
     title: Add unit tests to your TypeScript packages
     details: We can improvide confidence in our code by writing unit tests. Unit tests should resumble how the software is used.
