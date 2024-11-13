@@ -34,11 +34,7 @@ $ go run main.go
 
 To solve the [fibonacci exercise](https://go.dev/tour/moretypes/26) on go.dev we can use a closure and switch statement.
 
-All you need to know about the Fibonacci sequence is
-
-The Fibonacci sequence is a sequence of numbers that looks like this: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144. The next value in the sequence is the sum of the two integers behind it. If Fibonacci was a cat, it's tail is the last two numbers following it.
-
-The switch statement can be used instead of multiple if/else statements. It's easier to read and can be used without a condition.
+The Fibonacci sequence is a sequence of numbers that looks like this: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144. The next value in the sequence is the sum of the two integers behind it. We can use a closure to track the state of the sequence for every iteration.
 
 ```go
 package main
@@ -46,29 +42,19 @@ package main
 import "fmt"
 
 func fibonacci() func() int {
-	var tail []int
+	x, y := 0, 1
 
 	return func() int {
-		switch {
-		case len(tail) == 0:
-			tail = append(tail, 0)
-			return 0
-		case len(tail) < 2:
-			tail = append(tail, 1)
-			return 1
-		default:
-			next := tail[0] + tail[1]
-			tail[0] = tail[1]
-			tail[1] = next
-			return next
-		}
+		a := x
+		x, y = y, x+y
+		return a
 	}
 }
 
 func main() {
-	f := fibonacci()
+	fib := fibonacci()
 	for i := 0; i < 10; i++ {
-        fmt.Printf("%v, ", f())
+		fmt.Printf("%v, ", fib())
 	}
 }
 ```
