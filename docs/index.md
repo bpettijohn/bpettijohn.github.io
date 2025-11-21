@@ -9,6 +9,9 @@ hero:
   image: "./assets/images/code-solid.svg"
   actions:
     - theme: brand
+      text: Blog
+      link: /blog
+    - theme: brand
       text: Resume
       link: /resume
 features:

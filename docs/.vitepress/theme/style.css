@@ -149,4 +149,47 @@
     background-color: var(--vp-custom-block-note-bg);
     @apply px-6 pt-0.5 pb-4 rounded-lg mb-8 border-blue-500 border-solid border-2;
   }
+  a.blog-card {
+    @apply p-6 rounded-lg mb-6 border border-solid transition-all duration-300 hover:shadow-lg hover:-translate-y-1 cursor-pointer relative;
+    background-color: var(--vp-c-bg-soft);
+    border-color: var(--vp-c-divider);
+    text-decoration: none;
+    display: block;
+    position: relative;
+  }
+  a.blog-card:hover {
+    border-color: var(--vp-c-brand-1);
+    text-decoration: none;
+  }
+  a.blog-card:active {
+    text-decoration: none;
+  }
+  a.blog-card:visited {
+    text-decoration: none;
+  }
+  .blog-card-icon {
+    @apply text-3xl;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+  }
+  a.blog-card .blog-card-title {
+    @apply text-2xl font-semibold mb-8 pr-12 mt-0 border-t-0 pt-0;
+    color: var(--vp-c-brand-1);
+    text-decoration: none;
+  }
+  a.blog-card:hover .blog-card-title {
+    color: var(--vp-c-brand-2);
+    text-decoration: none;
+  }
+  a.blog-card .blog-card-date {
+    @apply text-sm mb-3 opacity-70;
+    color: var(--vp-c-text-2);
+    text-decoration: none;
+  }
+  a.blog-card .blog-card-description {
+    @apply text-base leading-relaxed;
+    color: var(--vp-c-text-1);
+    text-decoration: none;
+  }
 }
