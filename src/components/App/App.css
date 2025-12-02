@@ -1,0 +1,75 @@
+
+
+.container {
+  --cell-min: 200px;
+  --cell-max: 300px;
+
+  display: grid;
+  grid-template-columns: repeat(5, minmax(var(--cell-min), var(--cell-max)));
+  grid-template-rows: repeat(3, minmax(var(--cell-min), var(--cell-max)));
+  grid-template-areas:
+    "a a e e e"
+    "c c c . f"
+    "b b d d d";
+  gap: 10px;
+  width: 100%;
+  height: 100vh;
+  align-content: center;
+  justify-content: center;
+  background-image: url("../../assets/purple_smoke.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.name {
+  font-size: 5rem;
+  line-height: 6rem;
+  text-shadow: 2px 3px #000;
+}
+
+.job-title {
+  font-size: 2rem;
+}
+
+.item.a {
+  grid-area: a;
+  padding-left: 1em;
+  align-self: center;
+  background-color: transparent;
+  color: var(--green);
+  border: 0;
+}
+
+.b {
+  grid-area: b;
+  font-size: 30px;
+}
+
+.c {
+  grid-area: c;
+}
+
+.d {
+  grid-area: d;
+}
+
+.e {
+  grid-area: e;
+}
+
+.item.f {
+  grid-area: f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 0;
+}
+
+.item {
+  background-color: var(--bg-green);
+  border: 3px solid var(--green);
+}
+
